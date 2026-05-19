@@ -36,16 +36,9 @@ The dataset is expected to be placed under the `audio_data/` directory. For exam
 - `audio_data/test.csv`: Contains metadata such as the `audio` filename and true `text` transcriptions.
 - `audio_data/test/`: Contains the actual `.wav` or audio files corresponding to the filenames in the CSV.
 
-## Scripts and Usage
+## Notebook Usage
 
-### 1. Compute Word Error Rate (WER)
-After extracting the dataset, you can evaluate the models and compute the Word Error Rate (WER). The script evaluates both the `openai/whisper-large-v3-turbo` baseline and the fine-tuned model, comparing their results.
-Run the evaluation:
-```bash
-python compute_wers.py
-```
-
-### 2. Notebooks
+### 1. Notebooks
 - `audio_eda.ipynb`: A Jupyter Notebook containing Exploratory Data Analysis (EDA) on the audio data.
 - `multilanguage-speech-recognition.ipynb`: A Notebook documenting the main training/exploration workflow for the project.
 
