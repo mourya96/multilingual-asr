@@ -39,8 +39,8 @@ The dataset is expected to be placed under the `audio_data/` directory. For exam
 ## Notebook Usage
 
 ### 1. Notebooks
-- `audio_eda.ipynb`: A Jupyter Notebook containing Exploratory Data Analysis (EDA) on the audio data.
-- `multilanguage-speech-recognition.ipynb`: A Notebook documenting the main training/exploration workflow for the project.
+- `whisper-training.ipynb`: A Notebook documenting the main training/exploration workflow for the project.
+- `inference.ipynb`: A Notebook documenting the inference workflow and evaluation metrics.
 
 ## Project Structure
 
